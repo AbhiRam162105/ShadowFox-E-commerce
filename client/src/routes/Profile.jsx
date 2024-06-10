@@ -3,19 +3,13 @@ import ManageAccount from "../../UI/Account/ManageAccount/ManageAccount";
 import { TabTitle } from "../../../utils/General";
 
 export const Profile = () => {
+  TabTitle("My Account - Shoppie");
 
-    TabTitle("My Account - Shema")
-
-    return ( 
-        <MyAccount />
-     );
-}
+  return <MyAccount />;
+};
 
 export const AccountManager = () => {
+  TabTitle("My Account - Shoppie");
 
-    TabTitle("My Account - Shema")
-
-    return (
-        <ManageAccount />
-    );
-}
+  return <ManageAccount />;
+};

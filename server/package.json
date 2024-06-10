@@ -1,15 +1,14 @@
 {
-  "name": "Shema Server",
+  "name": "Shoppie Server",
   "version": "1.0.0",
-  "description": "Test Server for SHEMA",
+  "description": "Test Server for SHOPPIE",
   "proxy": "http://localhost:3000/1 ",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server",
     "dev": "nodemon server"
   },
-  "author": "Bereket Lemma",
-  "license": "ISC",
+  "author": "AbhiRam162105",
   "dependencies": {
     "axios": "^1.7.2",
     "bcrypt": "^5.1.1",
