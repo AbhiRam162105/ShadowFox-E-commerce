@@ -1,0 +1,29 @@
+{
+  "name": "Shema Server",
+  "version": "1.0.0",
+  "description": "Test Server for SHEMA",
+  "proxy": "http://localhost:3000/1 ",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "dev": "nodemon server"
+  },
+  "author": "Bereket Lemma",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.7.0",
+    "mongoose": "^6.5.3",
+    "multer": "^1.4.5-lts.1",
+    "server": "^1.0.39"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^2.0.19"
+  }
+}

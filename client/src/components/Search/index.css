@@ -1,0 +1,24 @@
+.search__container__body {
+  display: flex; /* Enables flexbox layout */
+  flex-wrap: wrap; /* Allows items to wrap onto multiple lines if there isn't enough space in a single line */
+  justify-content: center; /* Centers the items horizontally */
+  gap: 20px; /* Adds some space between the items */
+  padding: 20px; /* Adds some padding around the body */
+}
+
+.search-result {
+  flex-basis: calc(
+    25% - 40px
+  ); /* Each item takes up approximately 25% of the container's width minus some padding */
+  max-width: 100%; /* Ensures items don't exceed the container's width */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .search-result {
+    flex-basis: calc(
+      50% - 40px
+    ); /* On smaller screens, items take up half the width */
+  }
+}
